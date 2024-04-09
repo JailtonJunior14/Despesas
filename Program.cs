@@ -20,7 +20,7 @@ namespace Despesas
                 contV = double.Parse(Console.ReadLine());
                 total = contV + contV;
                 Console.WriteLine("Deseja continuar?");
-                resp = Console.ReadLine();
+                resp = Console.ReadLine().ToLower();
 
             }
             while (resp == "s");
