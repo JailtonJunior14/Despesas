@@ -29,6 +29,8 @@ namespace Despesas
             Console.WriteLine("Despesa em: " + desc);
             Console.WriteLine("Depesa total: " + (total).ToString("C"));
             Console.WriteLine("Media de gasto por pessoa: " +  (total)/numP);
+            Console.WriteLine("Deseja cadastrar uma nova despesa? S/N ");
+             resp = Console.ReadLine();
             Console.ReadKey();
         }
     }
